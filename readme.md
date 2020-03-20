@@ -1,22 +1,3 @@
-### NodeStream
-
-See complete tutorial [here](https://quantizd.com/building-live-streaming-app-with-node-js-and-react/).
-
-
-#### Install ffmpeg for RTMP to HLS transcoding 
-
-```
-# On Ubuntu 18.04
-
-$ sudo add-apt-repository ppa:jonathonf/ffmpeg-4
-$ sudo apt install ffmpeg
-
-# check version
-$ ffmpeg --version
-
-# You can download Windows builds from ffmpeg site.
-```
-
 #### Configuration
 Change ffmpeg path in node media server configuration to your
 own installed path.
